@@ -1,0 +1,104 @@
+.a{
+    display:flex;
+    flex-direction:row;
+    align-items: baseline; 
+    justify-content:space-between;
+    position: fixed;
+    top:0;
+    left:0.5px;
+    width:99%;
+    z-index:1000;
+    border:2px solid white;
+    background-color: orange;
+    
+    
+    
+}
+.l{
+    color: gray;
+    background-color: orange;
+}
+.k{
+    color: orange;
+}
+.m{
+    font-family:poppins;
+    text-align: center;
+}
+.p{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    border: 1px solid #ccc;
+    width: 15%;
+    border-radius:15px;
+    background-color: orange;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    left: 500px;
+}
+.w{
+    width: 320px;
+}
+.cheeze{
+    
+    border: 2px solid orange;
+    border-radius:20px;
+    width:322px;
+    height:430px;
+    text-align: center;
+}
+.i{
+    border:1px solid orange;
+    border-radius:20px;
+    width: 70px;
+    background-color: orange;
+}
+.chiken{
+     border: 2px solid orange;
+    border-radius:20px;
+    width:322px;
+    height:430px;
+    text-align: center;
+}
+.d{
+    border: 2px solid orange;
+    border-radius:20px;
+    width:322px;
+    height:430px;
+    text-align: center;
+    align-items: flex-end;
+
+}
+.y{
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.j{
+    width:250px;
+}
+.types{
+    color: black;
+    font-family: poppins;
+    text-align: center;
+    font-size:30px;
+}
+.z{
+    width: 200px;
+}
+.x{
+    color:orange;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.e{
+    text-align: center;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+}
