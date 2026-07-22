@@ -102,3 +102,60 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size:17px;
 }
+/* =====================================================
+
+✔ Les couleurs sont cohérentes avec le thème du restaurant.
+
+===================================================== */
+
+/* ✔ Bonne utilisation de Flexbox pour organiser plusieurs éléments. */
+
+/* ⚠ Les noms de classes comme .a, .d, .e, .i, .j, .k, .l ne sont pas très explicites.
+
+Il est préférable d'utiliser des noms significatifs comme :
+
+.header
+.navbar
+.card
+.button
+.hero
+.gallery
+
+Le code sera plus facile à comprendre. */
+
+/* ⚠ La largeur du bouton "Order now" est fixée à 15%
+   ainsi que la propriété left:500px.
+
+Cette méthode fonctionne sur ton écran mais risque de casser le responsive.
+
+Il vaut mieux centrer le bouton avec Flexbox. */
+
+/* ⚠ Plusieurs dimensions sont fixes (width:322px, height:430px).
+
+Pour un site responsive, préfère :
+
+max-width
+width:100%
+
+afin que les cartes puissent s'adapter aux petits écrans. */
+
+/* ✔ Les bordures arrondies apportent un joli rendu. */
+
+/* ✔ Les cartes sont bien alignées grâce à Flexbox. */
+
+/* ⚠ Il manque des effets de survol (hover) sur les cartes.
+
+Cela rendrait le site plus interactif. */
+
+/* ⚠ Aucun Media Query n'est présent.
+
+Le devoir attendait un site responsive qui s'adapte aux téléphones et tablettes. */
+
+/*  Petit conseil :
+
+Évite d'utiliser position:relative avec des valeurs fixes (left:500px).
+Cela fonctionne uniquement sur certaines résolutions d'écran.
+
+Privilégie Flexbox ou Grid pour centrer les éléments proprement.
+
+===================================================== */
